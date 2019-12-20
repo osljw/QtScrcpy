@@ -1,0 +1,6 @@
+adb -s b860fe37 shell sendevent /dev/input/event1 3 0 400
+adb -s b860fe37 shell sendevent /dev/input/event1 3 1 400
+adb -s b860fe37 shell sendevent /dev/input/event1 1 330 1 
+adb -s b860fe37 shell sendevent /dev/input/event1 0 0 0       
+adb -s b860fe37 shell sendevent /dev/input/event1 1 330 0 
+adb -s b860fe37 shell sendevent /dev/input/event1 0 0 0 
